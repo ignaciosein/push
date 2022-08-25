@@ -1,5 +1,32 @@
 .App {
   text-align: center;
+  display: flex;
+ font-size: 1.5rem;
+ flex-direction: column;
+ background: #282c34;
+ height: 100vh;
+ color: white;
+}
+input,button{
+margin-left: 10%;
+  width: 80%;
+  height: 5%;
+}
+button{
+  font-size:13px;
+  font-family:Arial;
+  width:80%;
+  height:29px;
+  border-width:1px;
+  color:#fff;
+  border-color:#18ab29;
+  font-weight:bold;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+  text-shadow: 1px 1px 0px #2f6627;
+  background:#44c767;
 }
 
 .App-logo {
@@ -12,6 +39,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 
 .App-header {
   background-color: #282c34;
