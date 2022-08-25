@@ -10,7 +10,7 @@ function App() {
 setTimeout(() => {
   Push.create(`Tienes que tomar ${medical}`, {
     body: `Te avisaremos en 8 horas`,
-    icon: '/icon.png',
+    icon: '/logo192.png',
  
     onClick: function () {
         window.focus();
