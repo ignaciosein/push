@@ -8,8 +8,8 @@ function App() {
   const push = ()=>{
 
 setTimeout(() => {
-  Push.create("Hello world!", {
-    body: `Tienes que tomar ${medical}`,
+  Push.create(`Tienes que tomar ${medical}`, {
+    body: `Te avisaremos en 8 horas`,
     icon: '/icon.png',
  
     onClick: function () {
@@ -17,7 +17,7 @@ setTimeout(() => {
         this.close();
     }
 });
-}, 6000);
+}, 3000);
    
 
   }
