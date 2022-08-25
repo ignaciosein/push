@@ -11,7 +11,7 @@ setTimeout(() => {
   Push.create("Hello world!", {
     body: "QUE PASA PADREEEEEE",
     icon: '/icon.png',
-    timeout: 4000,
+ 
     onClick: function () {
         window.focus();
         this.close();
@@ -23,10 +23,9 @@ setTimeout(() => {
   }
   
   return (
-    <div className="App">
+    <div className="container">
  
- <button onClick={()=>push()}>Notificame</button>
- 
+ <button type="button" class="btn btn-primary" onClick={()=>push()}>Crear notificación</button> 
     </div>
   );
 }
